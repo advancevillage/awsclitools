@@ -26,4 +26,8 @@ subnetids=(`GetSubnetsSubnetsId`)
 
 echo ${subnetids[*]}
 
-CreateLoadBalance
+#CreateLoadBalance
+
+GetLoadBalanceCount
+
+DeleteLoadBalanceByName

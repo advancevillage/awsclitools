@@ -1,0 +1,36 @@
+{
+    "editor.fontSize": 20,
+    "search.exclude": {
+        "someFolder/": true,
+        "somefile": true
+    },   
+    "files.exclude": {
+        "somefolder/": true,
+        "somefile": true
+    },
+    "explorer.openEditors.visible": 0,
+    "C_Cpp.default.cppStandard": "c++11",
+    "C_Cpp.default.cStandard": "c11",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "clang.executable": "clang",
+    "C_Cpp.default.includePath": [
+        "${workspaceRoot}",
+        "/usr/include/c++/5/",
+        "/usr/include/x86_64-linux-gnu/",
+        "/usr/include/x86_64-linux-gnu/sys/",
+        "/usr/include/"
+    ],
+    "files.associations": {
+        "mtr_config.h": "c",
+        "mtr_core.h": "c",
+        "mtr_linux_config.h": "c",
+        "time.h": "c",
+        "types.h": "c",
+        "mtr_auto_headers.h": "c",
+        "iostream": "c",
+        "sstream": "c",
+        "spdlog.h": "c",
+        "tweakme.h": "c",
+        "common.h": "c"
+    }
+}

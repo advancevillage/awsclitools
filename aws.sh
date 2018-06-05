@@ -2,7 +2,8 @@
 
 export root=`dirname $0`
 
-source $(dirname $0)/ec2/ec2.sh
+source $root/ec2/ec2.sh
+source $root/elb/elbv2.sh
 
 opt=${1:-""}
 
@@ -24,3 +25,5 @@ echo ${azs[*]}
 subnetids=(`GetSubnetsSubnetsId`)
 
 echo ${subnetids[*]}
+
+CreateLoadBalance

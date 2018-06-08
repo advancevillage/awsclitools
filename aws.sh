@@ -30,4 +30,7 @@ echo ${subnetids[*]}
 
 GetLoadBalanceCount
 
-DeleteLoadBalanceByName
+#CreateTargetGroup
+DeleteTargetGroupByName elb01
+
+#DeleteLoadBalanceByName default20180608224641
